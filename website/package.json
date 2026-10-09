@@ -1,0 +1,21 @@
+{
+  "name": "rlues-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Сайт на Express с базой данных PostgreSQL (пользователи и записи)",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "migrate": "node db/migrate.js",
+    "seed": "node db/seed.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "express": "^4.22.3",
+    "pg": "^8.23.1"
+  }
+}

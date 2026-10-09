@@ -3,7 +3,8 @@ __pycache__/
 *.py[cod]
 *$py.class
 .ace-tool/
-/.claude/
+/.claude/*
+!/.claude/settings.json
 
 # Athena 9.9.6 local-only validation/runtime/eval assets (never commit)
 vibeCoding/old/04-athena-8.9-9.9.9/scripts/validate-athena-9.9.6.*
